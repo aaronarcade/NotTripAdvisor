@@ -4,13 +4,14 @@ pyQT GUI and pyMySQL db of scraped TripAdvisor data
 Welcome to the Team8 Planner
 
 Controls
-	WASD 		-> Moves your character
-	Space 		-> Jump
+
+	WASD 			-> Moves your character
+	Space 			-> Jump
 	1-8 			-> Select hotbar
 	Scroll wheel 		-> Cycle hotbar
 	E			-> Use cookingstands, chests and more
 	O 			-> Display FPS counter
-	Escape 		-> Open menu/pause game
+	Escape 			-> Open menu/pause game
 	B/TAB			-> Open/close bag & crafting menucrafting menu
 	R			-> Rotates buildable objects
 	Shift			-> Sprint while moving
@@ -42,6 +43,7 @@ Customer
 	Select Trip Details to view booked trips from New Trip dialog.
 
 Admin
+
 	Select List of Attractions to view all attractions in planner database, including new attractions.
 	Select New Attraction to create new attraction for planner database viewable in List of Attractions.
 	Select Edit Attraction to change any fields of Attraction.
