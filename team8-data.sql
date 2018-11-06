@@ -1,0 +1,135 @@
+use team8;
+
+insert into public_transportation values (1, 'Lagrange', 'bus_station', 'ChIJLaMfOuFx5kcRjkxUDawL8HI');
+insert into public_transportation values (2, 'Grand Palais', 'transit_station', 'ChIJb0KYWtBv5kcRc9G4goPvj8U');
+insert into public_transportation values (3, 'Musée du Louvre', 'transit_station', 'ChIJExeOByZu5kcR6rqgfG442e8');
+insert into public_transportation values (4, 'Mirabelle TV', 'transit_station', 'ChIJb6ydjajelEcRnapAnkBOKaY');
+insert into public_transportation values (5, 'Gare Routière Metz (Eurolines)', 'bus_station', 'ChIJ4fOhshnclEcRG8rz3FZ8220');
+insert into public_transportation values (6, 'Fort du Sanctuaire Notre Dame', 'bus_station', 'ChIJCbshdMrAyRIR92FjdvLL6IA');
+insert into public_transportation values (7, 'Notre Dame du Mont', 'subway_station', 'ChIJ0fbw0aTAyRIRQATqY8h0nWU');
+insert into public_transportation values (8, 'Prado Perier', 'bus_station', 'ChIJ8wv6RlPHyRIR9lE3WWnqy3w');
+insert into attraction values ('Notre Dame Cathedral', 'This famous cathedral, a masterpiece of Gothic architecture on which construction began in the 12th century, stands on the Île de la Cité and is the symbolic heart of the city.', '6 Parvis Notre-Dame Place Jean-Paul II, 75004, Paris, France', 1, FALSE);
+insert into attraction values ('Pont Alexandre III', 'None', "1 Pont Alexandre III Quai d'Orsay, 75008, Paris, France", 2, FALSE);
+insert into attraction values ('Louvre Museum', 'Home to Leonardo da Vinci`s Mona Lisa, the Louvre is considered the world`s greatest art museum, with an unparalleled collection of items covering the full spectrum of art through the ages.', '99 rue de Rivoli, 75001, Paris, France', 3, TRUE);
+insert into attraction values ('Metz Cathedral', 'One of the tallest cathedrals in France, the 12th-century building is also known for its extensive use of stained-glass windows.', 'Place d`Armes, 57000, Metz, France', 4, FALSE);
+insert into attraction values ('Fort de Queuleu', 'None', 'Allee Jean Burger, 57070, Metz, France', 5, FALSE);
+insert into attraction values ('Saint Maximin', 'None', '61 rue Mazelle, 57000, Metz, France', 5, FALSE);
+insert into attraction values ('Basilique Notre Dame de la Garde', 'None', 'Rue Fort-du-Sanctuaire, 13281, Marseille, France', 6, TRUE);
+insert into attraction values ('Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands', 'None', '78 cours Julien, 13006, Marseille, France', 7, TRUE);
+insert into attraction values ('Parc national des Calanques', 'Créé le 18 avril 2012, le Parc national des Calanques est le 10e parc national français et le seul périurbain en Europe, à la fois terrestre et marin. Situé au cœur de la métropole Aix-Marseille-Provence, ce monument naturel comprend des massifs littoraux découpés de calanques, plusieurs îles, ainsi qu’un vaste espace marin qui, avec le canyon de la Cassidaigne, inclut l’un des plus riches canyons sous-marins de Méditerranée en termes de biodiversité. Situés dans l’une des zones les plus arides et ventées de France, ces paysages spectaculaires abritent près de 140 espèces terrestres animales et végétales protégées et 60 espèces marines. C’est cet ensemble unique d’écosystèmes et de spécificités culturelles que le Parc national a pour mission de protéger et valoriser pour les résidents, usagers, visiteurs et les générations futures. Superficie cœur marin : 43 500 ha. Cœur terrestre : 8 500 ha. Les activités proposées sur ce site ne sont pas des recommandations de l’établissement.', '141 avenue du Prado, 13008, Marseille, France', 8, TRUE);
+
+insert into HoursOfOperation values ('MonFri', '08:00:00', '20:00:00', 'Notre Dame Cathedral');
+insert into HoursOfOperation values ('MonFri', '09:00:00', '15:00:00', 'Pont Alexandre III');
+insert into HoursOfOperation values ('MonFri', '07:00:00', '22:00:00', 'Louvre Museum');
+insert into HoursOfOperation values ('MonFri', '08:00:00', '14:00:00', 'Metz Cathedral');
+insert into HoursOfOperation values ('MonFri', '07:00:00', '21:00:00', 'Fort de Queuleu');
+insert into HoursOfOperation values ('MonFri', '18:00:00', '23:00:00', 'Saint Maximin');
+insert into HoursOfOperation values ('MonFri', '09:00:00', '19:00:00', 'Basilique Notre Dame de la Garde');
+insert into HoursOfOperation values ('MonFri', '18:00:00', '23:00:00', 'Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands');
+insert into HoursOfOperation values ('MonFri', '06:00:00', '23:00:00', 'Parc national des Calanques');
+
+
+insert into user values('Jack', 'Allison', 'u', 'p', FALSE, FALSE, FALSE);
+insert into address values(4211, 'Fule Grove', 'Niwihpus', 'WV', 29057, 'GN', 'u');
+insert into credit_card values(6304819254639030, '2020-11-29', 831, 'u');
+
+insert into user values('Cordelia', 'Butler', 'a', 'p', TRUE, FALSE, FALSE);
+insert into address values(7939, 'Wecoz Mill', 'Wencemgo', 'OH', 24534, 'VE', 'a');
+insert into credit_card values(3528307523899240, '2020-6-12', 790, 'a');
+insert into user values('Eula', 'Goodwin', 'juzo@vo.tl', 'brKnVJggrzhmZy', FALSE, FALSE, FALSE);
+insert into address values(2886, 'Bafob Park', 'Basiaco', 'ND', 53609, 'UZ', 'juzo@vo.tl');
+insert into credit_card values(6334521511684790, '2019-10-25', 736, 'juzo@vo.tl');
+insert into user values('Chad', 'Collier', 'ig@luweko.ax', 'hIPOVLpsbzjDDi', FALSE, FALSE, FALSE);
+insert into address values(8177, 'Sakiw Turnpike', 'Ogomuhip', 'KS', 90311, 'FK', 'ig@luweko.ax');
+insert into credit_card values(5018478153273110, '2019-8-20', 318, 'ig@luweko.ax');
+insert into user values('Lettie', 'Walker', 'ra@dowjum.in', 'NEpnjBdTUShtdNsj', FALSE, FALSE, FALSE);
+insert into address values(1761, 'Liceg Drive', 'Cuumobap', 'HI', 24883, 'BH', 'ra@dowjum.in');
+insert into credit_card values(6376623988178690, '2020-12-13', 799, 'ra@dowjum.in');
+insert into user values('Marc', 'Park', 'fo@juhuheg.gd', 'cxWactWsKz', FALSE, FALSE, FALSE);
+insert into address values(2494, 'Ninop Key', 'Uwejimir', 'FL', 51984, 'AQ', 'fo@juhuheg.gd');
+insert into credit_card values(201487768045714, '2021-12-28', 887, 'fo@juhuheg.gd');
+insert into user values('Blanche', 'Chambers', 'jumbapop@vunoton.nu', 'YEbwDhZHMncOPQdCF', FALSE, FALSE, FALSE);
+insert into address values(1803, 'Majlo Turnpike', 'Tovmabva', 'NV', 79024, 'CA', 'jumbapop@vunoton.nu');
+insert into credit_card values(5153379212260410, '2021-7-6', 157, 'jumbapop@vunoton.nu');
+insert into user values('Tommy', 'Schmidt', 'tinvim@bem.im', 'GgWZhBxRhubvFPBnBYL', FALSE, TRUE, FALSE);
+insert into address values(9466, 'Tiva River', 'Bosojog', 'NV', 14950, 'MH', 'tinvim@bem.im');
+insert into credit_card values(6334668243632750, '2020-5-16', 124, 'tinvim@bem.im');
+insert into user values('Verna', 'Sullivan', 'up@pe.mo', 'eyHBeEDVkfXNHxU', FALSE, FALSE, FALSE);
+insert into address values(1434, 'Fomma Place', 'Zusale', 'AZ', 35913, 'BE', 'up@pe.mo');
+insert into credit_card values(3528308992017420, '2021-4-16', 145, 'up@pe.mo');
+insert into user values('Bruce', 'Walker', 'wed@asapekoj.do', 'utRNSxkeLK', FALSE, FALSE, FALSE);
+insert into address values(2046, 'Upejug Ridge', 'Sahwaven', 'MD', 48255, 'MV', 'wed@asapekoj.do');
+insert into credit_card values(6375109150864690, '2022-2-26', 115, 'wed@asapekoj.do');
+insert into user values('Jennie', 'Wolfe', 'pamlunkav@ubol.tk', 'HBNqEgunsrH', FALSE, FALSE, FALSE);
+insert into address values(9252, 'Camwil Extension', 'Mapvibre', 'AR', 51047, 'TO', 'pamlunkav@ubol.tk');
+insert into credit_card values(30048713478777, '2022-12-24', 334, 'pamlunkav@ubol.tk');
+insert into user values('Ernest', 'Estrada', 'wihetne@gemaze.sg', 'ztJTECsPSZ', FALSE, FALSE, FALSE);
+insert into address values(2320, 'Kenu Lane', 'Okudulle', 'GA', 11243, 'NA', 'wihetne@gemaze.sg');
+insert into credit_card values(348332573161518, '2022-2-5', 999, 'wihetne@gemaze.sg');
+insert into user values('Logan', 'Powell', 'watgu@koziiw.jp', 'oFLLDMLtrVROATcvvle', FALSE, FALSE, FALSE);
+insert into address values(5853, 'Kugdaj River', 'Pislisu', 'RI', 18237, 'ZA', 'watgu@koziiw.jp');
+insert into credit_card values(5473562252301600,'2021-8-4', 295, 'watgu@koziiw.jp');
+insert into user values('Sara', 'Hayes', 'za@emo.tf', 'pujuws', FALSE, FALSE, FALSE);
+insert into address values(3547, 'Povbah Manor', 'Cufajfil', 'VA', 54893, 'RE', 'za@emo.tf');
+insert into credit_card values(5170006067129770, '2021-7-10', 333, 'za@emo.tf');
+insert into user values('Hallie', 'Burton', 'hepa@aveset.edu', 'XmxRxOD', FALSE, FALSE, FALSE);
+insert into address values(6294, 'Ecvos Manor', 'Nasiwaf', 'PA', 38760, 'GE', 'hepa@aveset.edu');
+insert into credit_card values(6334825019526600, '2019-10-19', 464, 'hepa@aveset.edu');
+insert into user values('Eula', 'Garza', 'letoje@age.dj', 'ZkpnfqHTCNFOreRzYga', FALSE, FALSE, FALSE);
+insert into address values(7602, 'Sefut Terrace', 'Zusvulu', 'WY', 19175, 'MH', 'letoje@age.dj');
+insert into credit_card values(201495396843582, '2019-8-19', 930, 'letoje@age.dj');
+insert into user values('Leroy', 'Fields', 'fuwkubzeh@folasi.ph', 'cFJsu', FALSE, FALSE, FALSE);
+insert into address values(1290, 'Vowra Pass', 'Lukuzag', 'AK', 65624, 'TC', 'fuwkubzeh@folasi.ph');
+insert into credit_card values(4684026934401720, '2019-5-10', 762, 'fuwkubzeh@folasi.ph');
+insert into user values('Ronald', 'Hoffman', 'holomak@pebavepow.gs', 'AtKNXYoFJSRMdH', FALSE, FALSE, FALSE);
+insert into address values(6233, 'Feled Mill', 'Opiwfa', 'AL', 37202, 'PT', 'holomak@pebavepow.gs');
+insert into credit_card values(4903828736195690, '2019-1-8', 881, 'holomak@pebavepow.gs');
+
+insert into paid_attraction values (0.00,'Notre Dame Cathedral');
+insert into paid_attraction values (10.00,'Pont Alexandre III');
+insert into paid_attraction values (20.00,'Louvre Museum');
+insert into paid_attraction values (0.00,'Metz Cathedral');
+insert into paid_attraction values (0.00,'Fort de Queuleu');
+insert into paid_attraction values (0.00,'Saint Maximin');
+insert into paid_attraction values (0.00,'Basilique Notre Dame de la Garde');
+insert into paid_attraction values (40.00,'Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands');
+insert into paid_attraction values (0.00,'Parc national des Calanques');
+
+insert into trip values(1, 'Metz', '2019-01-01 8:00:00','2019-01-03 20:00:00', TRUE, 'u');
+insert into activity values('Metz Cathedral','2019-01-01 08:00:00', '2019-01-01 20:00:00', 'Metz', 100.00, 1);
+insert into activity values('Saint Maximin','2019-01-01 08:00:00', '2019-01-01 20:00:00', 'Metz', 1.00, 1);
+insert into activity values('Fort de Queuleu','2019-01-02 08:00:00', '2019-01-02 20:00:00', 'Metz',  80.00, 1);
+insert into reservation values(1, 'Metz Cathedral', 20,1,'2019-01-01 08:00:00');
+insert into time_slot values('Metz Cathedral','2019-01-01 8:00:00', '2019-01-01 09:00:00', 100, 1);
+
+insert into trip values(2, 'Paris', '2018-07-28 8:00:00', '2018-07-29 15:00:00', TRUE, 'fuwkubzeh@folasi.ph');
+insert into activity values('Notre Dame Cathedral', '2018-07-28 8:30:00', '2018-07-28 09:00:00', 'Paris', 0.00, 2);
+insert into activity values('Louvre Museum', '2018-07-28 09:30:00', '2018-07-28 12:00:00', 'Paris', 20.00,2);
+insert into activity values('Pont Alexandre III', '2018-07-28 13:00:00', '2018-07-28 14:00:00', 'Paris', 10.00,2);
+insert into reservation values(2,'Louvre Museum', 15,2,'2018-07-28 09:30:00');
+insert into time_slot values('Louvre Museum', '2018-07-28 09:30:00', '2018-07-28 12:00:00',10000, 2);
+
+insert into activity values('Basilique Notre Dame de la Garde','2019-01-01 08:00:00', '2019-01-01 20:00:00', 'Marseille', 87653.09, 2);
+insert into activity values('Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands','2019-01-01 08:00:00', '2019-01-01 20:00:00', 'Marseille', 09.25, 2);
+insert into activity values('Parc national des Calanques','2019-01-02 08:00:00', '2019-01-02 20:00:00', 'Marseille',  18.50, 2);
+
+insert into review values (1, 'Fantastic!','Massively interesting cathedral and even if you don’t get some info it’s worthy of a photo shot.','2018-12-28','Notre Dame Cathedral','fuwkubzeh@folasi.ph');
+insert into review values (2, 'Just okay','I`d rather be at a sports game','2018-10-01','Notre Dame Cathedral','letoje@age.dj');
+insert into review values (3, 'Amazing','Great views of the river and all of Paris!','2017-10-14','Pont Alexandre III','hepa@aveset.edu');
+insert into review values (4, 'Would Go Again','If you`re in Paris, this is a must!','2018-09-08','Pont Alexandre III','letoje@age.dj');
+insert into review values (5, 'Over Rated','Go to Muse D l`Orangerie instead!','2018-08-07','Louvre Museum','a');
+insert into review values (6, 'Incredible','If you`re in Paris, this is a must!','2018-06-08','Louvre Museum','juzo@vo.tl');
+insert into review values (7, 'Historic','See the night show if you are here in the Summer!','2015-09-18','Metz Cathedral','letoje@age.dj');
+insert into review values (8, 'Worth the Visit','Make this your first stop in town!','2014-11-05','Metz Cathedral','a');
+insert into review values (9, 'Great','Amazing for walks in the summer!','2014-01-01','Fort de Queuleu','ig@luweko.ax');
+insert into review values (10, 'Just Okay','Worthwhile to see if you happen to find yourself in Metz!','2014-10-03','Fort de Queuleu','fo@juhuheg.gd');
+insert into review values (11, 'Go Here Every Sunday','Praise god and Praise Saint Maximin! This place has changed my life!','2015-01-08', 'Saint Maximin','ig@luweko.ax');
+insert into review values (12, 'Under Rated','Don`t go to the Metz Cathedral, come here instead!','2018-01-07', 'Saint Maximin','a');
+insert into review values (13, 'Great','Would definitely recommend to anyone traveling in France and Lookin to get some culture.','2014-03-10', 'Basilique Notre Dame de la Garde','fo@juhuheg.gd');
+insert into review values (14, 'A MUST SEE','YOU JUST HAVE TO COME HERE!','2018-01-06', 'Basilique Notre Dame de la Garde','hepa@aveset.edu');
+insert into review values (15, 'Expensive','The show we saw here was not worth the price','2014-03-10', 'Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands','fo@juhuheg.gd');
+insert into review values (16, 'Worth it','Saw a production of Samson et Dalila here yesterday and can confirm that it is just as good as people say it is.','2014-02-06-', 'Randonnees theatrales Marcel Pagnol Cie Dans la cour des Grands','a');
+insert into review values (17, 'Beautiful','Went on a run here and it was sweet bliss!','2017-01-08', 'Parc national des Calanques','letoje@age.dj');
+insert into review values (18, 'Check it Out','If you come here, there is a beautiful wooded section that is perfect for a cute date!','2017-03-10', 'Parc national des Calanques','juzo@vo.tl');
+
+insert into activities values ('randmom stuff', 1, 'a')
