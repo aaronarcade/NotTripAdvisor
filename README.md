@@ -62,7 +62,7 @@ Admin
 
 
 With any questions or concerns, contact our 24/7 hotline customer service representative at:
-	George P. Burdel
+	George P. Burdell
 		Email : galil@cc.gatech.edu
 		Phone : 404-867-5309
 
