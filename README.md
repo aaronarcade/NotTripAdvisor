@@ -3,22 +3,6 @@ pyQT GUI and pyMySQL db of scraped TripAdvisor data
 
 Welcome to the Team8 Planner
 
-Controls
-
-	WASD 			-> Moves your character
-	Space 			-> Jump
-	1-8 			-> Select hotbar
-	Scroll wheel 		-> Cycle hotbar
-	E			-> Use cookingstands, chests and more
-	O 			-> Display FPS counter
-	Escape 			-> Open menu/pause game
-	B/TAB			-> Open/close bag & crafting menucrafting menu
-	R			-> Rotates buildable objects
-	Shift			-> Sprint while moving
-
-	JK this is no game.
-
-
 Login
 	Enter valid User Email and Password for Admin or Customer preferences window.
 
